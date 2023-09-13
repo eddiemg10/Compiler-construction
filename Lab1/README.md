@@ -22,10 +22,10 @@ Notebook included with Python implementation of a simple tokenizer. It splits a 
 
 File structure
 
-- `capital.l` - Flex specification file containing the rules and actions
+- `password.l` - Flex specification file containing the rules and actions
 - `lex.yy.c` - C file generated from the flex file
 - `scan.exe` -  Executable file created by compiling the `lex.yy.c` file
-- `automate.py` - [Optional] helper script to automatically compile the `password.l`  file to generate `lex.yy.c` and `scan.exe`
+- `automate.py` - [Optional] python script to automatically compile the `password.l`  file to generate `lex.yy.c` and `scan.exe`
 
 ### Working
 
