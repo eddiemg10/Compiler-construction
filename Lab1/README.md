@@ -24,10 +24,9 @@ This Lexer is inspired by [The Password Game](https://neal.fun/password-game/). 
 If an input is given that meets all these conditions e.g. `kenya13/09/2023/5.5`, the output displayed is
 
 > Password is valid!!
-> 
 
 If not, the rules that have been violated are displayed as output instead. e.g., the password `kenya13/09/2023/` gives the following output
 
 > Numbers in password must add up to 30. Current count - 20
-Password must have at least 1 special character
->
+>Password must have at least 1 special character
+
