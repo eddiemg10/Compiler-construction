@@ -345,7 +345,7 @@ static yyconst short int yy_def[31] =
 
 static yyconst short int yy_nxt[44] =
     {   0,
-        4,    5,    6,    7,    7,    8,    8,    9,   10,    4,
+        4,    5,    6,    7,    4,    8,    8,    9,   10,    4,
         4,   10,    4,    4,   23,   22,   21,   20,   17,   11,
        19,   18,   16,   15,   14,   13,   12,   24,    3,   24,
        24,   24,   24,   24,   24,   24,   24,   24,   24,   24,
@@ -372,12 +372,12 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "capital.l"
+#line 1 "password.l"
 #define INITIAL 0
 /*** Definition Section has one variable
 which can be accessed inside yylex()
 and main() ***/
-#line 5 "capital.l"
+#line 5 "password.l"
 #include <stdbool.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -543,7 +543,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 21 "capital.l"
+#line 21 "password.l"
 
 
 #line 550 "lex.yy.c"
@@ -631,7 +631,7 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 23 "capital.l"
+#line 23 "password.l"
 {
       is_valid = false;
       printf("Password cannot contain any spaces\n");      
@@ -639,7 +639,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 28 "capital.l"
+#line 28 "password.l"
 {
       int num = atoi(yytext);
       total_number_count += num;
@@ -647,19 +647,19 @@ YY_RULE_SETUP
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 33 "capital.l"
+#line 33 "password.l"
 {
       has_special_character = true;
 }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 37 "capital.l"
+#line 37 "password.l"
 {has_kenya = true;}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 39 "capital.l"
+#line 39 "password.l"
 {
      for (int i = 0; yytext[i] != '\0'; i++) {
         if (isdigit(yytext[i])) {
@@ -671,17 +671,17 @@ YY_RULE_SETUP
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 47 "capital.l"
+#line 47 "password.l"
 {}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 48 "capital.l"
+#line 48 "password.l"
 {return 0;}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 49 "capital.l"
+#line 49 "password.l"
 ECHO;
 	YY_BREAK
 #line 688 "lex.yy.c"
@@ -1570,7 +1570,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 49 "capital.l"
+#line 49 "password.l"
 
  
 /*** Code Section prints the number of
@@ -1597,7 +1597,7 @@ int main(){
  
  printf("Instructions - Password must contain: \n> No spaces\n> At least 1 special character\n"
             "> The country you are in currently\n> A date in the format dd/mm/yyyy"
-            "\n> Numbers should add up to 30 (excluding date numbers)\n\nEnter Password:");
+            "\n> Numbers should add up to 30\n\nEnter Password:");
 yylex();
 
 if(has_space){

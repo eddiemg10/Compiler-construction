@@ -30,7 +30,7 @@ third rule does not take input after the enter***/
       total_number_count += num;
 }
 
-[!@#$%\^&\*(){},=\-\.+;'"\/] {
+[!@#$%\^&\*(){},=\-\.+;'"] {
       has_special_character = true;
 }
 
@@ -72,7 +72,7 @@ int main(){
  
  printf("Instructions - Password must contain: \n> No spaces\n> At least 1 special character\n"
             "> The country you are in currently\n> A date in the format dd/mm/yyyy"
-            "\n> Numbers should add up to 30 (excluding date numbers)\n\nEnter Password:");
+            "\n> Numbers should add up to 30\n\nEnter Password:");
 yylex();
 
 if(has_space){

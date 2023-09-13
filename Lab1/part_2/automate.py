@@ -33,5 +33,5 @@ def delete_generated_files():
 
 if __name__ == "__main__":
     # Replace 'your_input_file.l' with the name of your Flex input file
-    input_file = 'capital.l'
+    input_file = 'password.l'
     compile_flex_file(input_file)
