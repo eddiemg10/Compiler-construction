@@ -1,5 +1,19 @@
+# Lab 1
+
+| Group Members |
+| --- |
+| 134338 |
+| 136047 |
+| 129277 |
+| 135114 |
+| 136809 |
+| 134022 |
+| 135012 |
+| 134469 |
+
 # Part 1
 
+Notebook included with Python implementation of a simple tokenizer. It splits a sentence collected from user input and outputs its words in different lines, ignoring commas, full stops and question marks
 ---
 
 # Part 2
