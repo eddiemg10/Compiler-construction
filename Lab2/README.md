@@ -26,17 +26,24 @@ Notebook has been included with the Python implementation of the task - `python_
 
 ### Logic
 
-Valid identifiers in python are defined as follows:
+Valid identifiers in Python are defined as follows:
 
-- A combination of uppercase and lowercase letters, digits or an underscore(\_) e.g. `newVariable`, `_variable`, `new_variable`
-- Can't start with digit.
+- A combination of uppercase and lowercase letters, digits, or an underscore(\_) e.g. `newVariable`, `_variable`, `new_variable`
+- Can't start with a digit.
 - Can’t use special symbols like !,#,@,%,$ etc
 - Can't use keywords.
 
+The program can also determine the types of tokens that are present in the provided user input. The tokens that can be identified are:
+-Identifier
+-String
+-Integer
+-Symbol
+-Operator
+
 ### Python Solution
 
-Contains a function that tokenizes an input to check for any reserved words. Also contains the main function that matches the input to a regex with the specifications for a valid identifier.
+Contains a function that tokenizes an input to check for any reserved words. Also contains the main function that matches the input to a regex with the specifications for a valid identifier. It can also classify the tokens into various types by use of a for loop. 
 
 ### Flex file
 
-Contains a function to identify whether an input is a Python keyword, which would make an identifier invalid. It also contains rules matching valid and invalid idenifiers.
+Contains a function to identify whether an input is a Python keyword, which would make an identifier invalid. It also contains rules matching valid and invalid identifiers.
