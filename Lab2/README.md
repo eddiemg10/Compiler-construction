@@ -34,11 +34,11 @@ Valid identifiers in Python are defined as follows:
 - Can't use keywords.
 
 The program can also determine the types of tokens that are present in the provided user input. The tokens that can be identified are:
--Identifier
--String
--Integer
--Symbol
--Operator
+- Identifier
+- String
+- Integer
+- Symbol
+- Operator
 
 ### Python Solution
 
