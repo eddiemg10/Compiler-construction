@@ -1,7 +1,7 @@
 """
 The program below solves the FizzBuzz problem
 FizzBuzz is a common coding interview question
- have been used to ...."""
+"""
 
 
  # Loop from 1 to 100
