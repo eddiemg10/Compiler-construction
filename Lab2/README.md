@@ -28,8 +28,9 @@ Notebook has been included with the Python implementation of the task - `python_
 
 Valid identifiers in python are defined as follows:
 
-- A combination of uppercase and lowercase letters, digits or an underscore(`-`) e.g. `newVariable`, `_variable`, `new_variable`
-- Can't start with digit. Can’t use special symbols like !,#,@,%,$ etc
+- A combination of uppercase and lowercase letters, digits or an underscore(\_) e.g. `newVariable`, `_variable`, `new_variable`
+- Can't start with digit.
+- Can’t use special symbols like !,#,@,%,$ etc
 - Can't use keywords.
 
 ### Python Solution
