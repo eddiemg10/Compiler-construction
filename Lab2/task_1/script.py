@@ -3,7 +3,6 @@ The program below solves the FizzBuzz problem
 FizzBuzz is a common coding interview question
 """
 
-
  # Loop from 1 to 100
 for i in range(1, 101):
     # Check if the number is divisible by both 3 and 5

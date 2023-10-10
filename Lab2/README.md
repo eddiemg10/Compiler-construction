@@ -24,4 +24,18 @@ Notebook has been included with the Python implementation of the task - `python_
 
 ## Task 2
 
-Task 2
+### Logic
+
+Valid identifiers in python are defined as follows:
+
+- A combination of uppercase and lowercase letters, digits or an underscore(`-`) e.g. `newVariable`, `_variable`, `new_variable`
+- Can't start with digit. Can’t use special symbols like !,#,@,%,$ etc
+- Can't use keywords.
+
+### Python Solution
+
+Contains a function that tokenizes an input to check for any reserved words. Also contains the main function that matches the input to a regex with the specifications for a valid identifier.
+
+### Flex file
+
+Contains a function to identify whether an input is a Python keyword, which would make an identifier invalid. It also contains rules matching valid and invalid idenifiers.
