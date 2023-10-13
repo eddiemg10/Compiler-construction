@@ -22,6 +22,7 @@ Notebook has been included with the Python implementation of the task - `constru
 ### Results
 
 The grammar used is shown below.
+
 ![image](https://github.com/eddiemg10/Compiler-construction/assets/59659920/f630396b-e05b-4ae6-91a9-60a17a08c564)
 
 
