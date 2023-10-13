@@ -17,7 +17,7 @@
 
 ## Task 3
 
-Notebook has been included with the Python implementation of the task - `construct_LL1_table.ipynb`. The explanation of the task has been included in the notebook.
+Notebook has been included with the Python implementation of the task - [`construct_LL1_table.ipynb`](https://github.com/eddiemg10/Compiler-construction/blob/main/lab3/construct_LL1_table.ipynb). The explanation of the task has been included in the notebook.
 
 ### Results
 
