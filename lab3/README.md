@@ -31,6 +31,7 @@ However, some modifications were made in the code implementation as follows
 |-------|------------------------|
 | E' | Ē |
 | T' | Ť |
+| id | i |
 | ε | Empty string(`""`) |
 
 #### Expected First and Follow Table
