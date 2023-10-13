@@ -1,0 +1,19 @@
+## Task 4
+
+### Part a) - Steps to generate parser
+
+1. Launch cmd in working directory bearing the .y file (sample.y)
+2. Run the command:
+   bison sample.y --xml --defines
+
+sample.y corresponds to the input YACC file for which the parser shall be generated.
+The --xml option yields an XML file that represents the parser.
+The --defines option yields a header file.
+
+If successful, the command yields 3 files that correspond to the parser:
+
+- sample.tab.c
+- sample.tab.h
+- sample.xml
+
+---
