@@ -35,16 +35,19 @@ However, some modifications were made in the code implementation as follows
 
 #### Expected First and Follow Table
 
-The following shows the expected First and Follow table for the grammar VS the results respectively. As can be seen, the generated table matches the true result
+The following shows the expected First and Follow table for the grammar and the results respectively. As can be seen, the generated table matches the true result
 
-![image](https://github.com/eddiemg10/Compiler-construction/assets/59659920/d6c55262-77f7-4bfb-8a8d-166eb8bbbf3a)
+![image](https://github.com/eddiemg10/Compiler-construction/assets/59659920/aba1e7d7-ae2e-4bda-a26a-3192d8d08568)
 
-![image](https://github.com/eddiemg10/Compiler-construction/assets/59659920/ec412b95-3ecd-4a48-b19a-ad4fa2ce76a8)
+![image](https://github.com/eddiemg10/Compiler-construction/assets/59659920/7caf44fa-5940-47ae-bf1b-1360ee28933d)
+
 
 #### Expected LL(1) Parsing table
 
-The following shows the expected parsing table for the grammar VS the results respectively. As can be seen, the generated table matches the true result
+The following shows the expected parsing table for the grammar and the results respectively. As can be seen, the generated table matches the true result
 
-![image](https://github.com/eddiemg10/Compiler-construction/assets/59659920/8e98493b-12aa-4185-be4f-edba6af01d6f)
+![image](https://github.com/eddiemg10/Compiler-construction/assets/59659920/0f5b39d7-039e-4e93-93e1-5983c23acfd9)
 
-![image](https://github.com/eddiemg10/Compiler-construction/assets/59659920/91f210dd-2def-4d44-89f6-7bcc0acebed4)
+
+![image](https://github.com/eddiemg10/Compiler-construction/assets/59659920/05401020-55e7-4774-ac7a-916f48c47f87)
+
